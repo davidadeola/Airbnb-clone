@@ -27,7 +27,7 @@ function Header() {
       {/* Middle */}
       <div
         className="flex items-center rounded-full 
-        py-1 md:border-2 md:shadow-sm sm:py-1 ">
+        py-1 md:border-2 md:shadow-sm sm:py-1 md:justify-start">
         <input
           className="flex-grow bg-transparent pl-5 outline-none
           text-sm text-gray-600 placeholder-gray-400"
@@ -42,7 +42,7 @@ function Header() {
       </div>
 
       {/* Right */}
-      <div className='flex items-center space-x-2
+      <div className='flex items-center space-x-3
       justify-end text-gray-500'>
         <p className='hidden md:inline cursor-pointer 
         p-2 rounded-full hover:bg-gray-100 px-3 text-black'>Become a host</p>
