@@ -18,7 +18,7 @@ function Banner() {
           className="my-3 rounded-full bg-white 
         px-10 py-4 font-bold shadow-md hover:shadow-xl active:scale-90 transition duration-150"
         >
-          <p className="bg-gradient-to-r from-indigo-500 via-purple-500 
+          <p className="bg-gradient-to-r from-indigo-500 via-purple-600 
           to-pink-500 bg-clip-text text-2xl font-bold text-transparent">
             I'm flexible
           </p>
