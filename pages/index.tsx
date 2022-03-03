@@ -16,14 +16,24 @@ export default function Home() {
       <main className='max-w-7xl mx-auto px-8 sm:px-16'>
         <section className='pt-6'>
           <h2 className='text-3xl font-semibold pb-5'>Inspiration for your next trip</h2>
-            <h1>London</h1>
-            <p className='text-gray-400'>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Id quisquam eius autem ullam, adipisci omnis modi tenetur
-              amet voluptates non totam doloremque sed, voluptate quae beatae 
-              debitis voluptatum? Temporibus, dolores.</p>
+              {(() => (
+                <h1>{location}</h1>
+              ))}
         </section>
       </main>
     </div>
-  ) 
+  );
 }
 
+export async function getStaticProps() {
+  const exploreData = await fetch('https://links.papareact.com/pyp').
+  then(
+    (res) => res.json()
+  );
+
+  return {
+    props: {
+      exploreData,
+    },
+  };
+}
