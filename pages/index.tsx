@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="">
       <Head>
-        <title>David Airbnb App</title>
+        <title>David Airbnb Clone</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
