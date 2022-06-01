@@ -16,7 +16,7 @@ export default function Home() {
       <main className='max-w-7xl mx-auto px-8 sm:px-16'>
         <section className='pt-6'>
           <h2 className='text-3xl font-semibold pb-5'>Inspiration for your next trip</h2>
-          <p className='sm:px-10'>New Paragraph design</p>
+          <p className='sm:px-10'>New Paragraph</p>
         </section>
       </main>
     </div>
